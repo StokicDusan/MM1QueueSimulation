@@ -1,7 +1,9 @@
 #mm1.py
 #M/M/1 queue system simulator
 
-import random,sys,numpy as np
+import numpy as np
+from sys import argv
+from random import expovariate
 
 # terms:
 # k - the number of processed users observed in the simulation 
@@ -20,16 +22,16 @@ import random,sys,numpy as np
 # T - average user retention in the system 
 # T_Q - average user retention in the waiting room 
 
-lambd = float(sys.argv[1])
-mu = float(sys.argv[2])
-k = int(sys.argv[3])
+lambd = float(argv[1])
+mu = float(argv[2])
+k = int(argv[3])
 
 n,i,j = int(1.2*k),0,0
 IA,W,A,D,t_Q,t=[],[],[],[],[],[]
 
 for m in range(int(n)):
-    IA.append(random.expovariate(lambd))
-    W.append(random.expovariate(mu))
+    IA.append(expovariate(lambd))
+    W.append(expovariate(mu))
     A.append(sum(IA[0:m+1]))
 
 D.append(A[0]+W[0])
@@ -51,7 +53,6 @@ while(j<k):
         else:
             #the system is empty 
             D.append(A[j]+W[j])
-
 
 #processing and printing of results 
 t_stop=D[k-1]
