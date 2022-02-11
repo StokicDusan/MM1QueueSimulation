@@ -2,7 +2,6 @@
 [![Commit-activity][commit-activity-shield]][commit-activity-url]
 [![Issues][issues-shield]][issues-url]
 [![Repo-size][repo-size-shield]][repo-size-url]
-[![License][license-shield]][license-url]  
 [![Forks][forks-shield]][forks-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -21,8 +20,6 @@ In queueing theory, M/M/1 is a queue with one server, whereby arrivals follow a 
 [issues-url]: https://github.com/StokicDusan/MM1QueueSimulation/issues
 [commit-activity-shield]: https://img.shields.io/github/last-commit/StokicDusan/MM1QueueSimulation
 [commit-activity-url]: https://github.com/StokicDusan/MM1QueueSimulation/graphs/commit-activity
-[license-url]: https://github.com/StokicDusan/MM1QueueSimulation/blob/master/LICENSE
-[license-shield]: https://img.shields.io/github/license/StokicDusan/MM1QueueSimulation
 [repo-size-shield]: https://img.shields.io/github/repo-size/StokicDusan/MM1QueueSimulation
 [repo-size-url]: https://img.shields.io/github/repo-size/StokicDusan/MM1QueueSimulation
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=plastice&logo=linkedin&logoColor=white
