@@ -6,7 +6,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 # M-M-1-Queue-Simulation
-This program simulates a M/M/1 Queue in Python
+This program simulates a M/M/1 queue system in Python
 
 # M/M/1 Queue
 Much of this is motivated from:
