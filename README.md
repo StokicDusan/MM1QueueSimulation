@@ -5,7 +5,7 @@
 [![Forks][forks-shield]][forks-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-# M-M-1-Queue-Simulation
+# Welcome to MM1QueueSimulation
 This program simulates a M/M/1 queue system in Python
 
 # M/M/1 Queue
